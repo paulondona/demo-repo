@@ -11,6 +11,7 @@ namespace WeatherForecastApp.Implementation
         private readonly Current _currentWeather;
         private readonly IWeatherStackClient _client;
 
+        
         /// <summary>
         /// Constructor new something
         /// </summary>
