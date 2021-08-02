@@ -31,6 +31,8 @@ namespace WeatherForecastApp
 
         public async Task Run(String[] args)
         {
+            //This is a test commit...
+
             _logger.LogInformation("Console is running....");
 
             Console.WriteLine("Please enter a valid zipcode:");
