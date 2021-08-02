@@ -22,7 +22,10 @@ namespace WeatherForecastApp.Implementation
              _currentWeather = current;
         }
 
-
+        /// <summary>
+        /// IsUvIndexInNormalRange
+        /// </summary>
+        /// <returns></returns>
         public bool IsUvIndexInNormalRange()
         {
             var response = false;
