@@ -36,6 +36,10 @@ namespace WeatherForecastApp.Implementation
             return response;
         }
 
+        /// <summary>
+        /// IsWeatherSuitableOutside
+        /// </summary>
+        /// <returns></returns>
         public bool IsWeatherSuitableOutside()
         {
             var response = true;
