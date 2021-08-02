@@ -11,7 +11,10 @@ namespace WeatherForecastApp.Implementation
         private readonly Current _currentWeather;
         private readonly IWeatherStackClient _client;
 
-        
+        /// <summary>
+        /// Constructor new something
+        /// </summary>
+        /// <param name="current"></param>
         public CurrentWeatherProcessor(Current current)
         {     
              _currentWeather = current;
